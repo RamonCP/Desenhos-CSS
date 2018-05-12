@@ -1,0 +1,15 @@
+/*
+
+Estilo da Logo do Lanterna Verde
+
+*/
+body{ background-color: #00b35b;}
+.base{ position: absolute; left: 388px; top: 41px; width: 525px; height: 525px; border-radius: 50%; border: 5px solid #000; background-color: #ffffff;}
+.circulo{z-index: 1; position: absolute; left: 482px; top: 134px; width: 330px; height: 330px; border-radius: 50%; border: 5px solid #000; background-color: #00b35b;}
+.circulo-interno{ z-index: 3; position: absolute; left: 555px; top: 208px; width: 180px; height: 180px; border-radius: 50%; border: 5px solid #000; background-color: #fff;}
+.barra-1,.barra-2{position: absolute;  width: 331px; height: 58px; border: 5px solid #000; background-color: #00b35b;}
+.barra-1{ top: 111px; left: 484px;}
+.barra-2{ top: 430px; left: 484px;}
+.tampa-1,.tampa-2{ z-index:2; position: absolute; width: 224px; height: 44px; background-color: #00b35b;}
+.tampa-1{ top: 130px; left: 539px;}
+.tampa-2{ top: 436px; left: 539px;}

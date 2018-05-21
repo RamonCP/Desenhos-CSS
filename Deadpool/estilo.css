@@ -7,7 +7,5 @@ body{ background-color: #ff0000;}
 .base{ position: absolute; z-index: 1; top: 90px; left: 400px; width: 500px; height: 500px; border-radius: 50%; border: 2px solid #000; background-color: #ff0000;}
 .circulo{ position: absolute; z-index: 2; top: 137px; left: 448px; width: 400px; height: 400px; border-radius: 50%; border: 2px solid #000; background-color: #000;}
 .barra{	position: absolute; z-index: 3; top: 134px; left: 605px; width: 89px; height: 410px; background-color: #ff0000;}
-/*.olho-1{ position: absolute; z-index: 4; top: 263px; left: 474px; width: 150px; border: 0 solid #ffffff;height: 75px;border-radius: 150px 150px 0px 0px;}*/
-
-.olho-1{ position: absolute; z-index: 4; top: 263px; left: 474px;  width: 0; height: 0; border-left: 3px solid transparent; border-right: 116px solid transparent; border-bottom: 53px solid #ffffff;}
-/*.olho-2{ position: absolute; z-index: 4; top: 263px; left: 500px; width: 1px; height: 1px; border: 90px solid #ffffff; border-bottom: 90px solid #ffffff; border-right-width: 30px; transform: skew(-45deg); }*/
+.olho-1{ position: absolute; z-index: 4; top: 263px; left: 474px;  width: 108px; height: 59px; border-bottom: 53px solid #ffffff; border-radius: 50%; -moz-transform: rotate(28deg);-webkit-transform: rotate(28deg);-o-transform: rotate(28deg);-ms-transform: rotate(28deg);transform: rotate(28deg);}
+.olho-2{ position: absolute; z-index: 4; top: 263px; left: 716px; width: 108px; height: 59px;  border-bottom: 53px solid #ffffff; border-radius: 50%;  -moz-transform: rotate(-28deg);-webkit-transform: rotate(-28deg);-o-transform: rotate(-28deg);-ms-transform: rotate(-28deg);transform: rotate(-28deg);}

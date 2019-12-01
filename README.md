@@ -1,2 +1,2 @@
-# Desenhos-CSS
-Desenhos feitos com CSS para aprendizado
+# Cartoons-CSS
+Cartoons made with CSS3
